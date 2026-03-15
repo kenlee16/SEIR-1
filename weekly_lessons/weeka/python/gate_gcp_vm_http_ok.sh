@@ -21,7 +21,7 @@ VM_IP=<external_ip> ./gate_gcp_vm_http_ok.sh
 
 Example:
 
-VM_IP=34.27.11.92 ./gate_gcp_vm_http_ok.sh
+VM_IP=34.44.120.133 ./gate_gcp_vm_http_ok.sh
 EOF
 }
 
