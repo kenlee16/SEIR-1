@@ -4,14 +4,8 @@
 # https://www.terraform.io/language/settings/backends/gcs
 terraform {
   backend "gcs" {
-    bucket = "lizzoluvtf"
+    bucket = "dat_boy_lee_bucket_1"
     prefix = "terraform/state"
-  }
-  required_providers {
-    google = {
-      source  = "hashicorp/google"
-      version = "~> 6.8"
-    }
   }
 }
 
