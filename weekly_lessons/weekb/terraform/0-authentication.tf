@@ -1,5 +1,4 @@
 
-
 #Chewbacca: The Force needs coordinates.
 #You need this first in order to see if you can authenticate to GCP
 
@@ -15,17 +14,17 @@ terraform {
 }
 
 provider "google" {
-  project = "thailand-433607"
+  project = "cyberproject-490100"
   region  = "us-central1"
 }
 
 
-resource "null_resource" "check_ansible" {
-  triggers = {
-    always_run = timestamp()
-  }
-
-  provisioner "local-exec" {
-    command = "ansible --version"
-  }
-}
+# resource "null_resource" "check_ansible" {
+#   triggers = {
+#     always_run = timestamp()
+#   }
+# 
+#   provisioner "local-exec" {
+#     command = "ansible --version"
+#   }
+# }
